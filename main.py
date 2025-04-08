@@ -57,7 +57,7 @@ def typeSpeed(stdscr):
         
         if key in ("KEY_BACKSPACE", '\b', "\x7f"): #Check if the clicked key is a backspace
             if (len(currentText) > 0) :
-                currentText.pop() #Remove the previously tiped letter
+                currentText.pop() #Remove the previously typed letter
         elif len(currentText) < len(text):
             currentText.append(key)
 
